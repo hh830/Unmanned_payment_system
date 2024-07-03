@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/item_bottom2"
+    tools:context=".membership">
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:text=" 이름"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint=" 이름을 입력하세요."
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/item_bottom2" />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:text=" 성별"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/inputSex"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint=" 성별을 입력하세요."
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/item_bottom2" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text=" 아이디"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+        <EditText
+            android:id="@+id/inputId"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:hint=" 예) marketgo21"
+            android:textSize="15dp"
+            android:background="@drawable/item_bottom2"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/marketBlue"
+            android:text="중복확인"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:text=" 비밀번호"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/inputPass"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint=" 비밀번호를 입력해주세요."
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/item_bottom2" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:text=" 비밀번호 확인"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/inputPassCheck"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint=" 비밀번호를 한번 더 입력해주세요."
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/item_bottom2" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:text=" 휴대폰"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/inputPhone"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint=" 숫자만 입력해주세요"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/item_bottom2" />
+
+
+
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:text=" 생년월일"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/inputBirthday"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint=" YY MM DD"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/item_bottom2" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/marketBlue"
+        android:text="가입하기"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/mTextViewResult"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

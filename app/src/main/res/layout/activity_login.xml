@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/item_bottom2"
+    tools:context=".MainActivity">
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/cart2"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_bottom2"
+            android:text="ID"
+            android:textAlignment="center"
+            android:textColor="@color/marketBlue"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/inputId"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_bottom2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_bottom2"
+            android:text="PW"
+            android:textAlignment="center"
+            android:textColor="@color/marketBlue"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/inputPass"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_bottom2" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@color/marketBlue"
+        android:text="로그인"
+        android:textColor="@color/marketYellow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/fidnId"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="90dp"
+            android:text="아이디 찾기"
+            android:gravity="right"/>
+
+
+        <Button
+            android:id="@+id/findPw"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="50dp"
+            android:text="비밀번호 찾기"
+            android:gravity="left"/>
+    </LinearLayout>
+    <CheckBox
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:background="@android:color/transparent"
+        android:text="자동 로그인"/>
+
+    <Button
+        android:id="@+id/memberShip"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@color/marketYellow"
+        android:textColor="@color/marketBlue"
+        android:text="회원가입"
+        />
+
+
+    <TextView
+        android:id="@+id/mTextViewResult"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
