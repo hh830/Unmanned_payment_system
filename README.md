@@ -10,6 +10,7 @@ Anroid Studio, PHP, MySQL, Arduino
 <br>
 
 ### 카트 구성
+카트에 담긴 상품들의 무게와 실제 상품들의 무게를 비교하기 위해 블루투스 모듈과 무게 센서를 사용
 ![image](https://github.com/hhJ830/Unmanned_payment_system/assets/99874673/4d4acdd0-d437-48cb-be40-9f48589c0b04)
 <img src="https://github.com/hhJ830/Unmanned_payment_system/assets/99874673/c0f6eed1-5af3-4d6c-82b9-7ffe60196351" width="300" height="340"/>
 
